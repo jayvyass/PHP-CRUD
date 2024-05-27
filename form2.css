@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aaccff; 
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.check-group {
+    margin-bottom: 30px;
+} 
+.check-group label {
+    font-weight: bold;
+    display: flexbox;
+    margin-bottom: 5px;
+    color: #333; 
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333; 
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="tel"],
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-group input[type="file"] {
+    margin-top: 5px;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+.input-group span {
+    color: red; 
+}
+
+.input-group img {
+    display:flexbox;
+    width: 60px;
+    height: 70px;
+}
+
+form button {
+    background: #141a34; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+    background-color: #0056b3; 
+}
+
